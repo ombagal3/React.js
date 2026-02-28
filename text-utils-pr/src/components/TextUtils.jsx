@@ -51,7 +51,7 @@ useEffect(() => {
           }} className="m-2 btn btn-outline-secondary">Counts  Words</button>
 
          <button onClick={() => {
-          const newSecond = Math.floor (text.split("").length * 60/160)
+          const newSecond = Math.floor (text.split("").length * 30/160)
           setSecond(newSecond)
             localStorage.setItem("second",newSecond.toString())
          }} className="m-2 btn btn-outline-success">Check Reading Time</button>
