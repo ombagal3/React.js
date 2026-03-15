@@ -87,7 +87,7 @@ const About = () => {
 
       <div className="order-1 w-full md:w-5/12"></div>
 
-      <div className="order-1 w-full md:w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg text-center md:text-left">
+      <div className="order-1 w-full md:w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg  md:text-left">
         <h4 className="text-lg font-bold mb-2">
           Bachelor of Engineering |
         </h4>
@@ -107,7 +107,7 @@ const About = () => {
 
     <div className="mb-8 flex flex-col md:flex-row justify-between items-center w-full timeline-item">
 
-      <div className="order-1 w-full md:w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg text-center md:text-left">
+      <div className="order-1 w-full md:w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg  md:text-left">
 
         <h4 className="text-lg font-bold mb-2">
           Higher Secondary Certificate |
@@ -130,12 +130,12 @@ const About = () => {
     </div>
 
 
-    {/* Card 3 */}
+
     <div className="mb-8 flex flex-col md:flex-row justify-between items-center w-full timeline-item">
 
       <div className="order-1 w-full md:w-5/12"></div>
 
-      <div className="order-1 w-full md:w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg text-center md:text-left">
+      <div className="order-1 w-full md:w-5/12 px-4 py-4 bg-slate-800 rounded-lg shadow-lg  md:text-left">
 
         <h4 className="text-lg font-bold mb-2">
           Secondary School Certificate |
