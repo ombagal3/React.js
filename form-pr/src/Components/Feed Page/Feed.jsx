@@ -1,84 +1,92 @@
 
+// import React, { useState } from "react"
 
+
+// const Feed = () => {
+  
+//  const [users, setUsers] = useState(
+//     JSON.parse(localStorage.getItem("users")) || []
+//   );
+
+//   // const Remove = () =>{
+//   //   localStorage.removeItem("users");
+  
+//   // }
+//   const removeUser = (index) => {
+//     users.splice(index, 1);
+//   const updatedUsers = users.filter((i) => i !== index);
+
+//   setUsers(updatedUsers);
+//   localStorage.setItem("users", JSON.stringify(updatedUsers));
+// };
+
+//     return <>
+    
+//   <div className="container d-flex flex-wrap">
+
+//         {users.length === 0 ? (
+//           <p>No users found</p>
+//         ) : (
+//           users.map((user, i) => (
+//             <div className="card m-2 p-3" key={i} style={{ width: "200px" }}>
+//               <h5>{user.name}</h5>
+//               <p>{user.email}</p>
+//               <p>{user.contact}</p>
+//               <p>{user.password}</p>
+//             </div>
+//           ))
+//         )}
+//    <button onClick={() => removeUser(i)} className="btn btn-danger">Deleate</button>
+   
+ 
+//   </div>
+    
+    
+    
+    
+//     </>
+// }
+// export default Feed;
+import React, { useState } from "react";
 
 const Feed = () => {
-    return <>
-    
-    <div className="container d-flex flex-column gap-3">
 
-   <div className="card">
-  <h5 className="card-header">Featured</h5>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">
-      With supporting text below as a natural lead-in to additional content.
-    </p>
-    <a href="#" className="btn btn-primary">
-      Go somewhere
-    </a>
-  </div>
-</div>
- 
- <div className="card">
-  <h5 className="card-header">Featured</h5>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">
-      With supporting text below as a natural lead-in to additional content.
-    </p>
-    <a href="#" className="btn btn-primary">
-      Go somewhere
-    </a>
-  </div>
-</div>
+  const [users, setUsers] = useState(
+    JSON.parse(localStorage.getItem("users")) || []
+  );
 
-<div className="card">
-  <h5 className="card-header">Featured</h5>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">
-      With supporting text below as a natural lead-in to additional content.
-    </p>
-    <a href="#" className="btn btn-primary">
-      Go somewhere
-    </a>
-  </div>
-</div>
+  const Remove = (index) => {
+    const NewUsers = users.filter((_, i) => i !== index);
 
-<div className="card">
-  <h5 className="card-header">Featured</h5>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">
-      With supporting text below as a natural lead-in to additional content.
-    </p>
-    <a href="#" className="btn btn-primary">
-      Go somewhere
-    </a>
-  </div>
-</div>
+    setUsers(NewUsers);
+    localStorage.setItem("users", JSON.stringify(NewUsers));
+  };
 
-<div className="card">
-  <h5 className="card-header">Featured</h5>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">
-      With supporting text below as a natural lead-in to additional content.
-    </p>
-    <a href="#" className="btn btn-primary">
-      Go somewhere
-    </a>
-  </div>
-</div>
+  return (
+    <>
+      <div className="container d-flex flex-wrap">
 
+        { (
+          users.map((user, i) => (
+            <div className="card m-2 p-3" key={i} style={{ width: "200px" }}>
+              <h5>{user.name}</h5>
+              <p>{user.email}</p>
+              <p>{user.contact}</p>
+              <p>{user.password}</p>
 
+              <button
+                onClick={() => Remove(i)}
+                className="btn btn-danger"
+              >
+                Delete
+              </button>
+            </div>
+          ))
+        )}
 
-
-    </div>
-    
-    
-    
-    
+      </div>
     </>
-}
+  );
+};
+
 export default Feed;

@@ -1,13 +1,43 @@
 import React, { useState } from "react"
+import {useNavigate} from 'react-router'
 
 const Form = () => {
+  
+   const navigate = useNavigate();
+
     const [user, setUser] = useState ({});
+    const [check, setCheck] = useState(false);
 
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+      e.preventDefault();
 
-    localStorage.setItem("user", JSON.stringify(user));
+     const passregex  = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+
+
+      if(user.email == undefined || user.email == "" ){
+        alert("Email is required !");
+      }
+      else if(user.name == undefined || user.name == ""){
+           alert("Name is required")
+      }
+      else if
+        (!passregex.test(user.password)|| user.password == "" ){
+          alert("password is invalid")
+      }
+     else{
+      const users = JSON.parse(localStorage.getItem("users")) || [];
+      users.push(user)
+
+     
+  
+       localStorage.setItem("users", JSON.stringify(users));
+       
        alert("Form Submitted !!")
+    navigate("/Feed")
+
+     }
 
     }
 
@@ -66,12 +96,12 @@ return <>
     />
   </div>
   <div className="mb-3 form-check">
-    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+    <input type="checkbox" checked={ check } onChange={() => setCheck(!check)} className="form-check-input" id="exampleCheck1" />
     <label className="form-check-label" htmlFor="exampleCheck1">
       Check me out
     </label>
   </div>
-  <button type="submit" className="btn btn-primary">
+  <button   type="submit" className={`btn btn-primary ${check ? "" : "disabled"}`}>
     Submit
   </button>
 </form>
