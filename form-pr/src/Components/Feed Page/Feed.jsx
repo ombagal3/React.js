@@ -16,7 +16,7 @@ const Feed = () => {
 
   return (
     <>
-      <div className="container d-flex flex-wrap">
+      <div className="container justify-content-center mt-3 d-flex flex-wrap">
 
         { (
           users.map((user, i) => (

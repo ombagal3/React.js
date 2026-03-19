@@ -1,47 +1,33 @@
 
+import React, {useState} from "react";
+
+
+
 
 
 const Price = () => {
+   const  [users, setUsers] = useState (JSON.parse(localStorage.getItem("users"))) || [];
     return <>
-    <div className="container d-flex justify-content-center bg-danger">
 
-<div className="row ">
-  <div className="col-4">
-    <div id="list-example" className="list-group">
-      <a className="list-group-item list-group-item-action" href="#list-item-1">
-        Item 1
-      </a>
-      <a className="list-group-item list-group-item-action" href="#list-item-2">
-        Item 2
-      </a>
-      <a className="list-group-item list-group-item-action" href="#list-item-3">
-        Item 3
-      </a>
-      <a className="list-group-item list-group-item-action" href="#list-item-4">
-        Item 4
-      </a>
-    </div>
-  </div>
-  <div className="col-8">
-    <div
-      data-bs-spy="scroll"
-      data-bs-target="#list-example"
-      data-bs-smooth-scroll="true"
-      className="scrollspy-example"
-      tabIndex={0}
-    >
-      <h4 id="list-item-1">Item 1</h4>
-      <p>...</p>
-      <h4 id="list-item-2">Item 2</h4>
-      <p>...</p>
-      <h4 id="list-item-3">Item 3</h4>
-      <p>...</p>
-      <h4 id="list-item-4">Item 4</h4>
-      <p>...</p>
-    </div>
-  </div>
-</div>
 
+    <div  className="container flex-wrap d-flex  gap-3 justify-content-center mt-5 align-items-center  ">
+           {
+        users.map((us, i) => (
+        
+        
+        <div style={{width : "400px"}} className="card flex-column border-0 shadow rounded p-3" key={i}>
+         <h5>Name : {us.name}</h5>
+         <p>Phone : {us.contact}</p>
+         <p>Email : {us.email}</p>
+
+ 
+
+     </div>)
+    
+)
+       }
+    
+    
 
 
 

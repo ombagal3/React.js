@@ -257,4 +257,12 @@
 // console.log(i)
 // i--;
 // }
+const arrr = [undefined]
 
+
+
+
+
+
+const  arr = [ ];
+console.log(arrr)

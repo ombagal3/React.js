@@ -1,22 +1,20 @@
-import React, { useState } from "react"
+import React, { useState } from "react"   // hanme ye rect State import krna padega funcation banane ke liyee
 import {useNavigate} from 'react-router'
 
 const Form = () => {
   
    const navigate = useNavigate();
 
-    const [user, setUser] = useState ({});
-    const [check, setCheck] = useState(false);
+    const [user, setUser] = useState ({});             // Ye function state kiya usme defult object pass kiyaa 
+    const [check, setCheck] = useState(false);        // or check wala fun create kiyaa jab user check box click krega tab submit button applyble ho ga
 
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e) => {    // or ye handle submit hai isme e pass kiyaa jab brwser pe bar bar relod hota hai page  to e.preventDefualt function pass kiya to relod nai hoga
       e.preventDefault();
 
-     const passregex  = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+     const passregex  = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;  // ye pass regex hai 
 
-
-
-      if(user.email == undefined || user.email == "" ){
+     if(user.email == undefined || user.email == "" ){        // or isme user email nai dali to email wal kam hai
         alert("Email is required !");
       }
       else if(user.name == undefined || user.name == ""){
@@ -27,7 +25,7 @@ const Form = () => {
           alert("password is invalid")
       }
      else{
-      const users = JSON.parse(localStorage.getItem("users")) || [];
+      const users = JSON.parse(localStorage.getItem("users")) || [];  // or isme 
       users.push(user)
 
      
@@ -42,7 +40,7 @@ const Form = () => {
     }
 
 return <>
-    <div className="container mt-5 d-flex justify-content-center align-items-center">
+    <div className="container mt-5 d-flex justify-content-center align-items-center" >
         <form onSubmit={handleSubmit} >
   <div className="mb-3">
     <label htmlFor="exampleInputEmail1" className="form-label">
