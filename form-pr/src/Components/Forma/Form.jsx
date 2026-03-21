@@ -14,7 +14,7 @@ const Form = () => {
 
      const passregex  = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;  // ye pass regex hai 
 
-     if(user.email == undefined || user.email == "" ){        // or isme user email nai dali to email wal kam hai
+     if(user.email == undefined || user.email == "" ){          // or isme user email nai dali to email wal kam hai
         alert("Email is required !");
       }
       else if(user.name == undefined || user.name == ""){
