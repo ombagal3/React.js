@@ -42,6 +42,17 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
+
+
+    
+    {/* <div className="">
+    <input onChange={(e)=> setSearch(e.target.value)} className="text-center me-3 p-1 " type="search"  placeholder="Search"/>
+  <button className='btn me-2 btn-outline-primary'
+  onClick={()=>{
+   setUsers( users.filter((user)=>user.name.toLowerCase() == search.toLocaleLowerCase() || user.email.toLocaleLowerCase() == search.toLocaleLowerCase() || user.contact == search));
+  }}
+  > search</button>
+</div> */}
   </div>
 </nav>
 
