@@ -257,12 +257,38 @@
 // console.log(i)
 // i--;
 // }
-const arrr = [undefined]
+// const arrr = [undefined]
 
 
 
 
 
 
-const  arr = [ ];
-console.log(arrr)
+// const  arr = [ ];
+// console.log(arrr)
+  
+
+
+// npm i react-router 
+
+// main.jsx import
+
+// import { BrowserRouter  } from 'react-router'
+// createRoot(document.getElementById('root')).render(
+
+
+// <BrowserRouter>
+// <App/>
+// </BrowserRouter>
+// )
+
+// App .jsx
+
+// import { Routes, Route} from "react-router";
+
+//   <Routes >
+
+//       <Route path='/' element={<Home/>} ></Route>
+//       <Route path='/Save' element={<Save/>} ></Route>
+   
+//      </Routes>
