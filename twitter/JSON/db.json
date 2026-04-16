@@ -1,0 +1,203 @@
+{
+  "tweets": [
+    {
+      "id": "v1heCQLEryk"
+    },
+    {
+      "tweet": "wwwwww",
+      "id": "O7fhtkgzUeY"
+    },
+    {
+      "tweet": "hellow",
+      "id": "5r2TAVKNdUw"
+    },
+    {
+      "tweet": "haha",
+      "id": "3lWD97iTma4"
+    },
+    {
+      "tweet": "haha",
+      "id": "ejEgj1CTz4c"
+    },
+    {
+      "tweet": "hehe",
+      "id": "xYp3DRpeSMk"
+    },
+    {
+      "tweet": "dhdh",
+      "id": "fwMYnDmuizE"
+    },
+    {
+      "tweet": "jhh",
+      "id": "LSXxh_7UI7A"
+    },
+    {
+      "tweet": "hhwh",
+      "id": "127uFHMRzNY"
+    },
+    {
+      "tweet": "heloow",
+      "id": "Iv5lLYkh5pc"
+    },
+    {
+      "tweet": "111",
+      "id": "Qqr6Pa9e2vk"
+    }
+  ],
+  "users": [
+    {
+      "name": "qqqqqq",
+      "email": "qqq",
+      "phone": "1111",
+      "password": "111",
+      "id": "ix8JIxpuD3A"
+    },
+    {
+      "name": "raj bagal",
+      "email": "bagal@gmail.com",
+      "phone": "93222933",
+      "password": "bagal1234",
+      "id": "jD_MOkE0YJI"
+    },
+    {
+      "name": "pavan patil",
+      "email": "pavan@gmail.com",
+      "phone": "74847383",
+      "password": "Bagajdk",
+      "id": "cpKTjda0ZlQ"
+    },
+    {
+      "name": "saurav chaudhri",
+      "email": "saurav@gmail.com",
+      "phone": "9288273882",
+      "password": "aghuennd",
+      "id": "x1drMCIqhT8"
+    },
+    {
+      "name": "darshan patil",
+      "email": "darshan@gmail.com",
+      "phone": "936478374",
+      "password": "hbbfhuebbd",
+      "id": "j0jHVyyP46A"
+    },
+    {
+      "id": "xkWljeu6QI0"
+    },
+    {
+      "name": "om",
+      "email": "om",
+      "phone": "5666",
+      "password": "ffggff",
+      "id": "My2GicwkPHE"
+    },
+    {
+      "name": "om",
+      "email": "om",
+      "phone": "5666",
+      "password": "ffggff",
+      "id": "4M6-MiMszY4"
+    },
+    {
+      "name": "bagal",
+      "email": "bagal@gmail.com",
+      "phone": "1234567",
+      "password": "1234",
+      "id": "TqYUyLyVY8g"
+    },
+    {
+      "id": "d8rX-EKiEtc"
+    },
+    {
+      "id": "W8gLEIH7H00"
+    },
+    {
+      "name": "vishal",
+      "email": "vishal",
+      "phone": "728282",
+      "password": "1111",
+      "id": "iXEERTLnD0g"
+    },
+    {
+      "name": "viki",
+      "email": "viki@gmail.com",
+      "phone": "72828",
+      "password": "111",
+      "id": "jKRUGwjOtTU"
+    },
+    {
+      "name": "om",
+      "email": "oms",
+      "phone": "123",
+      "password": "123",
+      "id": "XHsoZD_5vDw"
+    },
+    {
+      "id": "d8v_GNfreJ0"
+    },
+    {
+      "name": "om",
+      "email": "bagal",
+      "password": "93882727",
+      "id": "JSHJtZJIAQ4"
+    },
+    {
+      "name": "Raj Bagal",
+      "email": "Bagal@9322",
+      "phone": "932239",
+      "password": "1234",
+      "id": "1xwYxvLiUQw"
+    },
+    {
+      "email": "baghh",
+      "password": "hauuu",
+      "id": "DAv6SGqI_wc"
+    },
+    {
+      "email": "ghhhh",
+      "password": "ghhhh",
+      "id": "6GTz2KBkCuo"
+    },
+    {
+      "email": "jhhh",
+      "password": "jhh",
+      "id": "Wpnldx9Y7DQ"
+    },
+    {
+      "id": "iJ1JYrVkB_k"
+    },
+    {
+      "id": "F9r84T6OYeQ"
+    },
+    {
+      "name": "jj",
+      "id": "sVlwjF9TSyE"
+    },
+    {
+      "name": "om baga",
+      "id": "F7JwZ4p47i0"
+    },
+    {
+      "name": "",
+      "id": "lBYJ9lgbLwg"
+    },
+    {
+      "id": "r7e6BuUKT58"
+    },
+    {
+      "id": "jwBLM1uySac"
+    },
+    {
+      "name": "om patil",
+      "email": "om patil",
+      "password": "1213",
+      "id": "npYLJo3EiPg"
+    },
+    {
+      "name": "patil",
+      "email": "patil",
+      "password": "123",
+      "id": "Av6XmQ7rMzA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
