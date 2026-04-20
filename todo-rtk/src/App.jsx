@@ -1,11 +1,10 @@
 import React from 'react'
-import Counter from './components/Counter'
-
+import Todo from './screens/Todo'
 
 export default function App() {
   return (
     <div>
-      <Counter/>
-      </div>
+      <Todo/>
+    </div>
   )
 }

@@ -8,30 +8,48 @@ export default function SignUp() {
   const [user, setUser] = useState({});
   
   const handleSingUp = async () => {
-    const res = await axios.post(user_api, user);
+  
+        const nameRegex = /^[A-Za-z ]{3,30}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@#$%^&*!]{6,}$/;
+  
 
-    if (res.status == 201) {
-      alert("user sign up succesfull");
-      navi("/SingIn")
-    }if(user. name == "" || user.email == "" || user.phone == "" || user.password == ""){
-    alert("plz fill form")
+    if  (!nameRegex.test(user. name == "" )) {
+      alert("invalid Name");
+      return;
+     
+    }  if (!emailRegex.test(user.email || "")) {
+            alert("Invalid Email");
+            return;
+        }
 
-  }
-   else if (!emailregx.test(user.email)) {
-            alert("email is invalid !!")
+        if (!passwordRegex.test(user.password || "")) {
+            alert("Invalid Password");
+            return;
         }
-        else if(user.contact ==""){
-            alert("please Enter your phone number")
-        }
-       
-       else if (!passregex.test(user.password)) {
-            alert(" password is week !!")
-       }
-     else {
-      alert("cant singup user");
-    }
-    console.log(user);
-  }
+
+        const checkUser = await axios.get(`${user_api}?email=${user.email}`);
+        if(checkUser.data.length > 0){
+           alert("Email already exists!");
+            return;
+        } 
+           const res = await axios.post(user_api, user);
+          if( res.status == 20){
+             alert("Sign Up Sussfully")
+            navi("/SingIn")
+        
+
+          } else{
+            alert("can't sign user")
+          }
+
+        
+      
+  } 
+
+  
+   
+ 
 
 
 
@@ -43,7 +61,7 @@ export default function SignUp() {
         className="p-4 shadow rounded-4 bg-white"
         style={{ width: "350px" }}
       >
-        <h3 className="text-center mb-4 fw-bold">Create your account</h3>
+        <h3 className="text-center mb-4 fw-bold" style={ {color:"black"}}>Create your account</h3>
 
         <div className="d-flex flex-column gap-3">
           
@@ -90,10 +108,10 @@ export default function SignUp() {
             Sign up
           </button>
 
-          <p className="text-center mt-2" style={{ fontSize: "14px" }}>
+          <p className="text-center mt-2" style={{ fontSize: "14px", color:"black" }}>
             Already have an account?{" "}
-            <span style={{ color: "#1DA1F2", cursor: "pointer" }}>
-              Login
+            <span onClick={() =>   navi("/SingIn")} style={{ color: "#1DA1F2", cursor: "pointer" }}>
+              Login 
             </span>
           </p>
 

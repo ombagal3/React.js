@@ -16,7 +16,7 @@ export default function SignIn() {
 const res =  await axios.get(user_api);
  const loginUser =  res.data.find((e) => e.email == user.email && e.password == user.password)
  if(loginUser){
-localStorage.setItem("cu_user", JSON.stringify(loginUer));
+localStorage.setItem("cu_user", JSON.stringify(loginUser));
 alert("sign In succesfully")
 navigate("/Home");
  }else{
@@ -39,7 +39,7 @@ navigate("/Home");
         className="p-4 shadow rounded-4 bg-white"
         style={{ width: "350px" }}
       >
-        <h3 className="text-center mb-4 fw-bold">Sign in to your account</h3>
+        <h3   style={{ color: 'black'}} className="text-center mb-4 fw-bold">Sign in to your account</h3>
 
         <div className="d-flex flex-column gap-3">
 
@@ -68,9 +68,9 @@ navigate("/Home");
             Log in
           </button>
 
-          <p className="text-center mt-2" style={{ fontSize: "14px" }}>
+          <p className="text-center mt-2" style={{ fontSize: "14px" , color: "black"}}>
             Don't have an account?{" "}
-            <a  style={{ color: "#1DA1F2", cursor: "pointer" }}>
+            <a  onClick={() => navigate("/")} style={{ color: "#1DA1F2", cursor: "pointer" }}>
               Sign up
             </a>
           </p>
