@@ -11,10 +11,7 @@ const initialState = {
         addTodo: (state,actions) => { state.value.push(actions.payload) },
         removeTodo:(state,actions) => { state.value.splice(actions.payload, 1)},
 
-        updateTodo: (state, actions) => {
-  const { index, newText } = actions.payload;
-  state.value[index] = newText;
-}
+        updateTodo: (state, actions) => { state.value[actions.payload.index] = {text:actions.payload.text, status:false}}
         
     }
 })
