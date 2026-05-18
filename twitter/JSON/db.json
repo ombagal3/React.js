@@ -4,28 +4,20 @@
       "id": "v1heCQLEryk"
     },
     {
-      "tweet": "wwwwww",
-      "id": "O7fhtkgzUeY"
+      "tweet": "heie",
+      "id": "HlELd3UsNko"
     },
     {
-      "tweet": "Heloow",
-      "id": "Y4TURP1-iY4"
+      "tweet": "hellowww",
+      "id": "CTyjZxElzZY"
     },
     {
-      "tweet": "helii",
-      "id": "FUOmDzpKOzQ"
+      "tweet": "Enter youre tweets",
+      "id": "i0dx-GpwOH0"
     },
     {
-      "tweet": "Hellow",
-      "id": "Pac8O93zHfE"
-    },
-    {
-      "tweet": "helo world",
-      "id": "5O4LNtqN-Ks"
-    },
-    {
-      "tweet": "kooooo",
-      "id": "5uohtilIRh8"
+      "tweet": "post your tweetss",
+      "id": "smw0uqZVmao"
     }
   ],
   "users": [
@@ -375,6 +367,27 @@
       "phone": "8397263527",
       "password": "Bagal&8532",
       "id": "kjN_W6SKZhA"
+    },
+    {
+      "name": "Kartik patil",
+      "email": "kartik123@gmail.com",
+      "password": "Kartik&123",
+      "phone": "1234565432",
+      "id": "LIlNfFzHJ8A"
+    },
+    {
+      "name": "ombagal",
+      "email": "ombagal03@gmail.com",
+      "phone": "039282726",
+      "password": "Bagal&uw83",
+      "id": "JwQPEF1KTMo"
+    },
+    {
+      "name": "om bagal",
+      "email": "ombagal01@gmail.com",
+      "phone": "282736227",
+      "password": "OM&afs@gd88",
+      "id": "CSq6bTc6r14"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

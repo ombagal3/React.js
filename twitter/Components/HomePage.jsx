@@ -49,7 +49,7 @@ export default function HomePage() {
           </button>
         </div>
 
-        <div className="col-6 border-end  mt-5  h-50">
+        <div  className="col-6 border-end  mt-5  ">
           <div className="d-flex  mt-3 justify-content-center ms-5  align-items-center border-end border-secondary">
             {/* COVER */}
             <div className="bg-info" style={{ height: 150 }} />
@@ -107,9 +107,10 @@ export default function HomePage() {
         }
       </div> */}
               </div>
-              <div className="p-3 m-3    w-100">
+              <p></p>
+              <div style={{height:"300px"}}  className="p-3 m-3  overflow-scroll hide-scrollbar w-100 ">
                 {get.map((t, index) => (
-                  <div key={index} className="d-flex gap-3 m-3 card bg-dark p-3 border-secondary w-100 ">
+                  <div key={index} style={{width:"450px"}} className="d-flex gap-3 m-3 card bg-dark p-3 border-secondary  ">
                     <div
                       className="bg-info rounded-circle"
                       style={{ width: 50, height: 50 }}
@@ -117,7 +118,7 @@ export default function HomePage() {
                     <div>
                       <b>{t.user}</b>{" "}
                       <span className="text-secondary">
-                        {user.email}· May 16
+                        {user.email}· april 24
                       </span>
                       <p className="text-light">{t.tweet}</p>
                       <div className="d-flex gap-4 text-secondary">
@@ -134,13 +135,13 @@ export default function HomePage() {
         </div>
 
         <div className="col-3 p-4  ">
-          {/* SEARCH */}
+       
           <input
             type="text"
             className="form-control mb-3 rounded-pill"
             placeholder="Search Twitter"
           />
-          {/* SUGGESTIONS */}
+   
           <div className="card bg-dark border-secondary p-3 mb-3">
             <h6>You might like</h6>
             <div className="d-flex justify-content-between align-items-center mt-3">

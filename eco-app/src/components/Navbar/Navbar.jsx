@@ -16,7 +16,7 @@ console.log(serachProduct)
 }
     return <>
 <nav className="navbar container-fluid bg-body-tertiary ">
-  <div className="container-fluid d-flex justify-align-content-around">
+  <div className="container-fluid d-flex justify-align-content-around ">
     <a className="navbar-brand">Navbar</a>
 
 

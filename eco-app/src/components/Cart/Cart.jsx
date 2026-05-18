@@ -32,7 +32,7 @@ const  Cart  = () => {
 
 
  return <>
- <div className='d-flex justify-content-center flex-column align-items-center mt-3  mb-3 gap-3 h-100'>
+ <div style={{height:""}} className='d-flex justify-content-center flex-column align-items-center mt-3 overflow-y-scroll mb-3 gap-3 '>
   {products.map((product, i) => <div key={i} className="card flex-row  "  style={{ width: "32rem", height:"15rem" }}>
 
  <img src={product.img} className="card-img-top" alt="..." />
@@ -74,11 +74,13 @@ const  Cart  = () => {
      </div>
    </div>
 </div>)}
- <div className='d-flex justify-content-start  container '>
+
+ </div>
+
+  <div className='d-flex justify-content-start  container '>
 
     <p className='text-start fw-bold '>Total:{Math.floor(total)} </p>
   </div>
- </div>
   
  
  </>
