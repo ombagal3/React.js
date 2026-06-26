@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "name": "Om Nitin Bagal",
+      "email": "bagal@gmail.com",
+      "password": "123",
+      "role": "user",
+      "id": "2"
+    }
+  ],
+  "packages": [
+    {
+      "title": "Goa Beach",
+      "location": "Goa,",
+      "price": "18,000",
+      "days": "3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KV_ybYI4s1AazapjKCB4zL_Zphei4EC9WOJ_NJodzw&s=10",
+      "description": "North Goa: Energy & ActionBaga & Calangute: The bustling hubs of North Goa [Thomascook.com]. Perfect for energetic crowds, energetic [MakeMyTrip] beach shacks, and water sports like parasailing and banana boat rides [Thomascook.com, Capertravelindia.com, MakeMyTrip].",
+      "id": "c4MDdvW34Yc"
+    },
+    {
+      "title": "Manali",
+      "location": "Manali, Himachal Pradesh",
+      "price": "22,000",
+      "days": "4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHl9koPspmgMKqSOC6YqNgTW6QEGosjNqr_ueBd4EEA&s=10",
+      "description": "📍 Standard Itinerary Highlights (4 Days)Day 1: Overnight Volvo journey from Delhi to Manali.Day 2: Check-in, followed by local sightseeing (Hadimba Devi Temple, Vashisht Hot Water Springs, Tibetan Monastery, Mall Road).Day 3: Excursion to Solang Valley for adventure sports (paragliding, ATV rides) and drive towards Atal Tunnel / Sissu.",
+      "id": "NeL_kVAxQ3E"
+    },
+    {
+      "title": "Kedarnath tour",
+      "location": "Kedarnath",
+      "price": "35,000",
+      "days": "4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXvol5OVYONkSnVjbfOE4OGWoitm9oiBLHNXF46HmNw&s=10",
+      "description": "A typical Kedarnath Yatra itinerary includes:Day 1: Arrival in Haridwar or Rishikesh and drive to Sonprayag/Guptkashi.Day 2: Early morning taxi to Gaurikund, followed by a 16 km trek to Kedarnath (or helicopter transfer).Day 3: Darshan, followed by trek or helicopter descent to base camps for an overnight stay.Day 4: Return drive back to Haridwar.",
+      "id": "s84lb6r0OPg"
+    },
+    {
+      "title": " Rajasthan's royal heritage",
+      "location": "Rajasthan",
+      "price": "12,000",
+      "days": "6",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZCx8W7o-Y3_c_pdKpmFGUjRzo1ujP7da0v3HkUsLPQ&s=10",
+      "description": "Most packages can be tailored to include:Desert Safaris: Camel rides and overnight camping in Sam Sand Dunes (Jaisalmer).Wildlife Excursions: Jeep safaris at Ranthambore National Park for tiger tracking.Romantic Retreats: Lake Pichola boat rides and heritage palace stays in Udaipur.If you'd like to narrow this down, please tell me:Where you are traveling from (e.g., nearest airport or city)Your preferred travel dates and durationWho is traveling (e.g., family, couple, solo)I can help you find exact quotes and operators for your trip.",
+      "id": "ZGr6CDg9rN0"
+    }
+  ],
+  "bookings": [
+    {
+      "name": "Om Nitin Bagal",
+      "email": "bagal@gmail.com",
+      "phone": "213565456",
+      "members": "5",
+      "travelDate": "2026-09-04",
+      "packageId": null,
+      "status": "Approved",
+      "id": "i3ml6AKW6Fg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

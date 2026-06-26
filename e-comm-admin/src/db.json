@@ -1,0 +1,283 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "123456",
+      "role": "customer"
+    },
+    {
+      " id": "3",
+      "name": "Om",
+      "email": "Om@gmail.com",
+      "password": "123456",
+      "role": "customer",
+      "id": "YYtBZH3VT5E"
+    }
+  ],
+  "products": [
+    {
+      "name": "I phone 15",
+      "price": "70000",
+      "category": "Phone",
+      "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+      "id": "yzG-aIWBUec"
+    },
+    {
+      "name": "Camera",
+      "price": "50000",
+      "category": "Camera",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+      "id": "lTMLIOCMaAE"
+    },
+    {
+      "name": "Watch",
+      "price": "1500",
+      "category": "Watch",
+      "image": "https://rukminim2.flixcart.com/image/687/687/xif0q/smartwatch/0/q/x/-original-imaguhwtnfu5u6au.jpeg?q=90",
+      "id": "bDAKugVp1GI"
+    },
+    {
+      "name": "keypad phone",
+      "price": "899",
+      "category": "phone",
+      "image": "https://image.cdn.shpy.in/305289/1699641441248_SKU-0973_0.jpg?width=600&format=webp",
+      "id": "hzuqMvsR7_I"
+    },
+    {
+      "name": "Laptop",
+      "price": "45000",
+      "category": "Laptop",
+      "id": "yagW4vfRPO8"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer": "Rahul",
+      "total": 5000,
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "customer": "Aman",
+      "total": 9000,
+      "status": "Delivered"
+    },
+    {
+      "customer": "Rahul",
+      "total": 50000,
+      "status": "Shipped",
+      "items": [
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        }
+      ],
+      "id": "osbqRtYKGok"
+    },
+    {
+      "customer": "Rahul",
+      "total": 150000,
+      "status": "Pending",
+      "items": [
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        },
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        },
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        }
+      ],
+      "id": "oq5arpP1QB0"
+    },
+    {
+      "customer": "Om",
+      "userId": "YYtBZH3VT5E",
+      "total": 121500,
+      "status": "Delivered",
+      "items": [
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        },
+        {
+          "name": "Watch",
+          "price": "1500",
+          "category": "Watch",
+          "image": "https://rukminim2.flixcart.com/image/687/687/xif0q/smartwatch/0/q/x/-original-imaguhwtnfu5u6au.jpeg?q=90",
+          "id": "bDAKugVp1GI"
+        }
+      ],
+      "id": "h8iB1FDI33k"
+    },
+    {
+      "customer": "Rahul",
+      "userId": "2",
+      "total": 451500,
+      "status": "Pending",
+      "items": [
+        {
+          "name": "Watch",
+          "price": "1500",
+          "category": "Watch",
+          "image": "https://rukminim2.flixcart.com/image/687/687/xif0q/smartwatch/0/q/x/-original-imaguhwtnfu5u6au.jpeg?q=90",
+          "id": "bDAKugVp1GI"
+        },
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        },
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        }
+      ],
+      "id": "oBLpyZIHCso"
+    },
+    {
+      "customer": "Om",
+      "userId": "YYtBZH3VT5E",
+      "total": 123398,
+      "status": "Shipped",
+      "items": [
+        {
+          "name": "I phone 15",
+          "price": "70000",
+          "category": "Phone",
+          "image": "https://m.media-amazon.com/images/I/51-RPOw693L._AC_SL1080_.jpg",
+          "id": "yzG-aIWBUec"
+        },
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        },
+        {
+          "name": "bag",
+          "price": "999",
+          "category": "bag",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:…xdXnc0ppn4pRWd40YtEZ5YqV8V3SHXAHBSUpdjAI&usqp=CAc",
+          "id": "L6FSbA3tAvE"
+        },
+        {
+          "name": "Watch",
+          "price": "1500",
+          "category": "Watch",
+          "image": "https://rukminim2.flixcart.com/image/687/687/xif0q/smartwatch/0/q/x/-original-imaguhwtnfu5u6au.jpeg?q=90",
+          "id": "bDAKugVp1GI"
+        },
+        {
+          "name": "keypad phone",
+          "price": "899",
+          "category": "phone",
+          "image": "https://image.cdn.shpy.in/305289/1699641441248_SKU-0973_0.jpg?width=600&format=webp",
+          "id": "hzuqMvsR7_I"
+        }
+      ],
+      "id": "4UrjM_HyrPA"
+    },
+    {
+      "customer": "Rahul",
+      "userId": "2",
+      "total": 51500,
+      "status": "Shipped",
+      "items": [
+        {
+          "name": "Camera",
+          "price": "50000",
+          "category": "Camera",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ04y_RgozOZceXv1foxQJ6LFlSG4loddPMw3TkZW4gZg0YJ_cmr9xuOMDphKfNPs8_5MDNm2WVmxWDcHCs7iSVzOYeKp9yQ",
+          "id": "lTMLIOCMaAE"
+        },
+        {
+          "name": "Watch",
+          "price": "1500",
+          "category": "Watch",
+          "image": "https://rukminim2.flixcart.com/image/687/687/xif0q/smartwatch/0/q/x/-original-imaguhwtnfu5u6au.jpeg?q=90",
+          "id": "bDAKugVp1GI"
+        }
+      ],
+      "id": "lFvnrbV9Lsc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

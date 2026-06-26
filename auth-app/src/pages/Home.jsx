@@ -1,3 +1,4 @@
+
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -10,18 +11,35 @@ export default function Home() {
 
   const onLogout = () => {
     dispatch(logout());
-    toast.info('Logged out');
+    toast.info('Logged out successfully');
     navigate('/login');
   };
 
-  return (
-    <div className="home">
-      <div className="card">
-        <h2>Welcome, {user.name} </h2>
-        <p><strong>Name:</strong> {user.name}</p>
-        <p><strong>Email:</strong> {user.email}</p>
-        <button onClick={onLogout}>Logout</button>
+return (
+  <div className="home">
+    <div className="home-card">
+
+      <div className="avatar">
+        {user?.name?.charAt(0).toUpperCase()}
       </div>
+
+      <h1>Welcome Back </h1>
+
+      <div className="user-info">
+        <p>
+          <span>Name:</span> {user.name}
+        </p>
+
+        <p>
+          <span>Email:</span> {user.email}
+        </p>
+      </div>
+
+      <button className="logout-btn" onClick={onLogout}>
+        Logout
+      </button>
+
     </div>
-  );
+  </div>
+);
 }
