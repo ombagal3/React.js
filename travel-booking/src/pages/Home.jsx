@@ -5,6 +5,10 @@ import Navbar from "../components/Navbar";
 import PackageCard from "../components/PackageCard";
 import { Link } from "react-router-dom";
 
+
+
+//json server start from  : npx json-server --watch db.json --port 5000
+
 function Home() {
   const dispatch = useDispatch();
 
