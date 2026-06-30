@@ -13,6 +13,20 @@
       "password": "123",
       "role": "user",
       "id": "2"
+    },
+    {
+      "name": "om",
+      "email": "om01@gmail.com",
+      "password": "123",
+      "role": "user",
+      "id": "LbcHkUxH9nk"
+    },
+    {
+      "name": "ompatil",
+      "email": "ompatil@gmail.com",
+      "password": "123",
+      "role": "user",
+      "id": "P4LzEz0jEqI"
     }
   ],
   "packages": [
@@ -51,6 +65,24 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZCx8W7o-Y3_c_pdKpmFGUjRzo1ujP7da0v3HkUsLPQ&s=10",
       "description": "Most packages can be tailored to include:Desert Safaris: Camel rides and overnight camping in Sam Sand Dunes (Jaisalmer).Wildlife Excursions: Jeep safaris at Ranthambore National Park for tiger tracking.Romantic Retreats: Lake Pichola boat rides and heritage palace stays in Udaipur.If you'd like to narrow this down, please tell me:Where you are traveling from (e.g., nearest airport or city)Your preferred travel dates and durationWho is traveling (e.g., family, couple, solo)I can help you find exact quotes and operators for your trip.",
       "id": "ZGr6CDg9rN0"
+    },
+    {
+      "title": "Nepal",
+      "location": "Nepal",
+      "price": "50,000",
+      "days": "10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcv47J9GD87arPR5worQbG-gPmpuOVbp_nP2LPBSScQ&s=10",
+      "description": "Nepal,[a] officially the Federal Democratic Republic of Nepal,[b] is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain. It borders the Tibet Autonomous Region of China to the north, and India to the south, east, and west, while it is narrowly separated from Bangladesh by the Siliguri Corridor, and from Bhutan by the Indian state of Sikkim. Nepal has a diverse geography, including fertile plains, subalpine forested hills, and eight of the world's ten highest mountains, including Mount Everest, the highest point above mean sea level on Earth.[16] Kathmandu is the nation's capital and its largest city. Nepal is a multi-ethnic, multi-lingual, multi-religious, and multi-cultural sovereign state, with Nepali as the official language.",
+      "id": "oJUM0Y98UKg"
+    },
+    {
+      "title": "Delhi",
+      "location": "Delhi",
+      "price": "15,000",
+      "days": "4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVbTqGBIENuXGNTeT5LlULGJ5qtCNmQzTdrbL6TkBUg&s=10",
+      "description": "Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls.",
+      "id": "7T3Tf9qambY"
     }
   ],
   "bookings": [
@@ -73,6 +105,26 @@
       "packageId": null,
       "status": "Approved",
       "id": "haLME1hqw7E"
+    },
+    {
+      "name": "Om Nitin Bagal",
+      "email": "bagal@gmail.com",
+      "phone": "8373272373",
+      "members": "7",
+      "travelDate": "2026-03-06",
+      "packageId": null,
+      "status": "Rejected",
+      "id": "urWBOdCQB7M"
+    },
+    {
+      "name": "ompatil",
+      "email": "ompatil@gmail.com",
+      "phone": "2982718272",
+      "members": "4",
+      "travelDate": "2026-08-31",
+      "packageId": null,
+      "status": "Approved",
+      "id": "8mkMrZIOVus"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
