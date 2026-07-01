@@ -5,14 +5,14 @@ import { useNavigate, useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 function Booking() {
-  const { id } = useParams();
+  const { id } = useParams();   
 
   const dispatch = useDispatch();
 
   const navigate = useNavigate();
        
 
-  
+
   const user = JSON.parse(localStorage.getItem("user"));
 
   const [formData, setFormData] = useState({
