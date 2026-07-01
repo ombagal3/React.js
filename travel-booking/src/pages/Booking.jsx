@@ -10,7 +10,9 @@ function Booking() {
   const dispatch = useDispatch();
 
   const navigate = useNavigate();
+       
 
+  
   const user = JSON.parse(localStorage.getItem("user"));
 
   const [formData, setFormData] = useState({
