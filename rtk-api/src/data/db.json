@@ -1,0 +1,15 @@
+{
+  "books": [
+    {
+      "title": "hhh",
+      "author": "jjjj",
+      "id": "YeYOHLbDXrY"
+    },
+    {
+      "title": "hhh",
+      "author": "ffff",
+      "id": "nz6Z3qmO4RA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
