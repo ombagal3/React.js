@@ -7,152 +7,16 @@
       "password": "123"
     },
     {
-      "id": "d2Dh1zxa7bE"
-    },
-    {
-      "id": "E1lpAFkDpiY"
-    },
-    {
-      "id": "FRFAjrQCfAg"
-    },
-    {
-      "id": "IjvBuuLVpSk"
-    },
-    {
-      "id": "R5mjJd9797E"
-    },
-    {
-      "id": "FpC6tAGZVMU"
-    },
-    {
-      "id": "wINx-iyK374"
-    },
-    {
-      "id": "BwHTwQTw1LU"
-    },
-    {
-      "id": "o1Cz4tnNulM"
-    },
-    {
-      "id": "q4E01BO25Zo"
-    },
-    {
-      "id": "-7RD0e0S2Ds"
-    },
-    {
-      "id": "tfIFvMdk_4c"
-    },
-    {
-      "id": "J7qGtDCMwLs"
-    },
-    {
-      "id": "hnP1Wl5FCn0"
-    },
-    {
-      "id": "WIdqGg8RGNY"
-    },
-    {
-      "id": "xEdBwt35ku4"
-    },
-    {
-      "id": "lee8jEBjmb4"
-    },
-    {
-      "id": "_zHLy_RmcXs"
-    },
-    {
-      "id": "rxxoZkEE3B0"
-    },
-    {
-      "id": "G1_iRCE8Rgo"
-    },
-    {
-      "id": "XJnFYfJoB58"
-    },
-    {
-      "id": "45GZLSuD8Zw"
-    },
-    {
-      "id": "E73N2h0vGIM"
-    },
-    {
-      "id": "HIWVzmmzdEM"
-    },
-    {
-      "id": "KJS2bUNNH94"
-    },
-    {
-      "id": "DzLCGbC2ifA"
-    },
-    {
-      "id": "PN5ElLy_xu4"
-    },
-    {
-      "name": "fhhf",
-      "id": "mtfz2DzArxg"
-    },
-    {
       "name": "raj",
-      "email": "bagal@gmail.com",
-      "password": "6222667ge",
-      "id": "w_lfOYi33Dc"
+      "email": "raj12@gmail.com",
+      "password": "345",
+      "id": "u_7AJKRNnzQ"
     },
     {
-      "id": "tIiaYDigV1k"
-    },
-    {
-      "id": "UtsiWU4fuzs"
-    },
-    {
-      "name": "kuio",
-      "email": "luio@gmail.com",
-      "password": "67890",
-      "id": "l1BdiAfa4G0"
-    },
-    {
-      "id": "y4eeTSrZ2Cw"
-    },
-    {
-      "name": "nsn",
-      "email": "sn@",
-      "password": "2nw",
-      "id": "siSIts95k3k"
-    },
-    {
-      "name": "nsn",
-      "email": "sn@",
-      "password": "2nw",
-      "id": "GihB6xcIYAA"
-    },
-    {
-      "name": "nsn",
-      "email": "sn@",
-      "password": "2nw",
-      "id": "Q7TrHaI2aaY"
-    },
-    {
-      "name": "Om Nitin Bagal",
-      "email": "ombagal9@gmail.com",
-      "password": "1234",
-      "id": "rZV4AETfmOA"
-    },
-    {
-      "name": "Om Nitin Bagal",
-      "email": "ombagal3@gmail.com",
-      "password": "567",
-      "id": "BBVkkKdn8fw"
-    },
-    {
-      "name": "Om Nitin Bagal",
-      "email": "ombagal2@gmail.com",
-      "password": "12345",
-      "id": "obvIgsD9JJE"
-    },
-    {
-      "name": "Om Nitin Bagal",
-      "email": "ombagal2@gmail.com",
-      "password": "12345",
-      "id": "9mg3qbpSvrw"
+      "name": "bagal",
+      "email": "bagal123@gmail.com",
+      "password": "123",
+      "id": "64DcC5YnRJw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

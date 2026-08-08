@@ -9,23 +9,54 @@ export default function Login() {
   const router = useRouter();
   const [user, setUser] = useState({});
 
-  const getUser = async () => {
-   
-    const res = await axios.get("http://localhost:3000/users");
-    console.log(res.data);
+  const getUser = async (e) => {
+    e.preventDefault();
 
+
+    const res = await axios.get("http://localhost:3000/users");
+
+    
+    // console.log(res.data);
     const logUser = res.data.find(
-      (e) => e.email == user.email && e.password == user.password,
+      (e) => e.email == user.email && e.password == user.password
     );
-    console.log(getUser);
-    if (logUser) {
+
+
+
+    if(logUser){
+
+
+      let oldsUser = JSON.parse(localStorage.getItem("logUsers"));
+
+if (!Array.isArray(oldsUser)){
+  oldsUser = [];
+}
+// console.log(JSON.parse( localStorage.getItem("user")))
+
+
+      const checkUser = oldsUser.find((e) => e.id == logUser.id);
+
+      if(!checkUser) {
+ oldsUser.push(logUser);
+      }
+        localStorage.setItem("logUsers", JSON.stringify(oldsUser));
+
+
+        
+          localStorage.setItem("current-user", JSON.stringify(logUser));
+   
       alert("login successss");
-      router.push("/profile");
+      router.push("/home");
     } else {
       alert("login fail");
     }
-    console.log(user);
-  };
+        };
+
+
+    // console.log(logUser);
+ 
+    // console.log("called");
+  
 
   return (
     <>
@@ -92,7 +123,6 @@ export default function Login() {
 
             <div>
               <button
-             
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
@@ -113,5 +143,4 @@ export default function Login() {
         </div>
       </div>
     </>
-  );
-}
+  )};
